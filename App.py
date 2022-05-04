@@ -61,16 +61,16 @@ path='images'
 detect(path)
 
 
-def main():
-    st.title("Face Regcognition App:smile:")
-    st.write("by Sourabh Mahindrakar")
-    st.write("------------------------------")
-    st.write("**Using the Haar Cascade Classifier**")
-    activities=["Home","contact"]
-    choice=st.sidebar.selectbox("Menu",activities)
-    if choice=="Home":
-        st.write("Amigo! please upload a face photos....")
-        st.write("note:photo uploaded should be in a format name.jpg")
+# def main():
+#     st.title("Face Regcognition App:smile:")
+#     st.write("by Sourabh Mahindrakar")
+#     st.write("------------------------------")
+#     st.write("**Using the Haar Cascade Classifier**")
+#     activities=["Home","contact"]
+#     choice=st.sidebar.selectbox("Menu",activities)
+#     if choice=="Home":
+#         st.write("Amigo! please upload a face photos....")
+#         st.write("note:photo uploaded should be in a format name.jpg")
 
 
 
